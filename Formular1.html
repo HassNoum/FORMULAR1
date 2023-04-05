@@ -4,16 +4,21 @@
     <meta charset="utf-8">
     <title>Reciver Page</title>
   </head>
-  <body>
-    <p id="info"></p>
+  <body
+      <p id="Fragan1">Vad betyder GDPR?</p>
     <script type="text/javascript">
       let url = decodeURI(window.location.href);
-      let data = url.split("?");
-      let dataParts = data[1].split("&");
-      document.getElementById("Fragan1")
-      let string =dataParts[0].split("=")[1] + dataParts[1].split("=")[1];
-      document.getElementById("info").textContent = string;
-      console.log(string);
+
+      let urlParts = url.split("?");
+      let dataPairs = urlParts[1].split("&");
+
+      for (var i = 0; i < dataPairs.length; i++) {
+        console.log(dataPairs[i]);
+        let keyPair = dataPairs[i].split("=");
+
+
+      }
+
     </script>
   </body>
 </html>
