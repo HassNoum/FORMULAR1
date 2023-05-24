@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="sv" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Reciver Page</title>
+  </head>
+  <body>
+    <p>Vad betyder GDPR?<span id="input1"></span></p>
+    <p>Rätta svaret: General Data Protection Regulation som är dataskyddsförordningen</p>
+    <p>Vad bestämmer GDPR om?<span id="input2"></span></p>
+    <p>Rätte svaret:GDPR definierar den personuppgiftsansvarige som den person som "bestämmer ändamålen och medlen för behandlingen av personuppgifter". Det innebär att den person eller organisation som bestämmer varför och hur personuppgifter behandlas ansvarar för att GDPR-reglerna efterlevs och  att personuppgifterna behandlas i enlighet med dessa regler. Den personuppgiftsansvarige ansvarar också  för att informera  registrerade  om hur deras personuppgifter behandlas och vilka rättigheter de har enligt GDPR.</p>
+    <p>När ska du använda metoden POST för att skicka data?<span id="input3"></span></p>
+    <p>Rätte svaret:POST-metoden används i HTTP-protokollet när data behöver skickas från klienten till servern för att lagras eller bearbetas på något sätt. I allmänhet bör POST-metoden användas när en användare fyller i ett formulär på en webbsida eller när en stor mängd data behöver skickas till servern. Om du bara behöver hämta data från servern utan att skicka någon information till servern bör du inte använda POST-testet, då är GET-metoden mer lämplg.
+    </p>
+    <p>När ska du använda metoden GET för att skicka data?<span id="input4"></span></p>
+    <p>Rätte svaret:GET-metoden används i HTTP-protokollet när klienten behöver hämta information från servern, till exempel en webbsida eller en bild. Detta kan användas när du inte behöver skicka data till servern utan bara ladda ner det, eller för att skicka små mängder data som nyckelord eller filterparametrar. GET-metoden är också lämplig för att skapa bokmärkta länkar till serverresurser.
+    </p>
+    <p>Ska du som utvecklare lita på användare? Resonera utifrån ett säkerhetsperspektiv!<span id="input5"></span></p>
+    <p>Rätte svaret:Som utvecklare bör du av säkerhetsskäl inte lita på användarinmatning, eftersom användare kan skicka in input, avsiktligt eller oavsiktligt, som kan orsaka allvarliga säkerhetsproblem. Därför är det viktigt att validera all mottagen indata och implementera lämpliga säkerhetsåtgärder, såsom autentisering och auktorisering, för att skydda applikationer från obehörig åtkomst och andra skadliga hot.</p>
+    <p>Ska du som användare lita på utvecklare? Resonera utifrån ett säkerhetsperspektiv!<span id="input6"></span></p>
+    <p>Rätte svaret:Användare bör inte förlita sig på utvecklare för säkerhet eftersom applikationer kan ha sårbarheter som angripare kan utnyttja. Användare bör vidta lämpliga säkerhetsåtgärder för att skydda sina data och system, som att använda säkerhetsprogramvara och hålla sina program och system uppdaterade. Användare bör också vara medvetna om vanliga datasäkerhetsproblem och hur de kan skydda sig mot dem för att minimera risken för säkerhetsproblem.
+    </p>
+    <p>Hur kan du som utvecklare skydda användares lösenord?<span id="input7"></span></p>
+    <p>Rätte svaret:Utvecklare kan skydda användarlösenord med kryptering, med att tvinga att ha starka lösenord, med salting, tvåfaktorsautentisering.
+    </p>
+    <p>Redogör för dessa sätt<span id="input8"></span></p>
+    <p>Rätte svaret:Krypteringen är det som gör så att man gömmer ett t.ex ett lösenord bakom slumpmässiga bokstäver samt siffror. Detta gör det svårare att kunna veta vad lösenordet är då det är krypterad. Det är en väl bra metod att gömma lösenordet på om någon försöker att hacka sig in. Att ha starka lösenord med stora o små bokstäver, sifrror o tecken är ett jättebra metod också. Det gör så att lösenordet blir mycket svårare att knäcka då det innehåler flera oförväntade "tecken" det är bäst att inte ha ettt namn eller enkla ord i lösenordet. Att salta innebär att man lägger till ett slumpmässigt tillägg till lösenordet som gör det svårare att lista ut lösenordet. Sist men inte minst att ha tvåfaktorsautentisering, t.ex ett mobilnummer, en app som ingen kan ha tillgång till kontot utan att man accepterar det via appen eller en kod man kan spara för att logga in om man glömmer lösenordet. Det är bästa metoden då man har flera olika saker man behöver göra för att kunna komma åt kontot o inte bara med lösenordet.
+    <p>Hur kan man skapa säkra lösenord?<span id="input9"></span></p>
+    <p>Rätte svaret:Det finns flera olika svar på den här frågan. Man kan ha långa lösenord, det gör så att knäckad det blir svårare då det finns flera tecken i lösenordet, ett tips kan var är att använda sig utav meningar. Man kan använda flera typer av tecken t.ex. stora och små bokstäver, tecken som %#åöä. Dessa gör det för svårt att knäcka lösenordet. Man undviker namn och ord från ordlistan, då alla kan komma åt de. Ha unika lösenord för alla tjänster, så att man blir säker om något skulle hända med ett annat konto så inte det blir för alla olika tjänster. Sist men inte minst använd tvåfaktorsautentisering, som innebär att man har ett extra krav som verkligen visar att det är du och inte någon annan som kan ditt lösenord. 
+    <p>Vad är skillnaden mellan kryptering och hashning?<span id="input10"></span></p>
+    <p>Rätte svaret: Både kryptering och hashning är sätt för att kunna gömma eller sätta ett lås för en text eller en fil man skickar. Man kan säga att hashning är en kryptografisk funktion som inte är tvåvägs, med det sagt man kan inte gå tillbaka till det ursprungliga data. Med kryptering du kan få tillbaka och som kan kan säga öppna låset för datan man skickar.</p>
+    <p>Beskriv varför det är en dum idé att lagra saker i klartext<span id="input11"></span></p>
+    <p>Rätte svaret: När du lagrar information i klartext, är inte det skyddad på något sätt. Detta innebär att vem som helst kan ha tillgång till den, man vill inte dela känslig info t.ex lösenord med vem som helst. Vem som helst kan gå in o använda det för t.ex tjäla pengar eller utföra brottsliga handlingar. Det är extra viktig att kryptera och använda säkerhetsåtgärder för att skydda den.</p>
+    <p>Vad är en blacklist?<span id="input12"></span></p>
+    <p>Rätte svaret: En blacklist kan defeneras som en lista över personer, organisationer eller neheter som är otillåtna av en viss grupp. Det kan handla om att blockera epostadresser eller ipadresser från att skicka data, det kan också var att hindra en person att få tillgång till en webbplats.</p>
+    <p>Vad är en whitelist?<span id="input13"></span></p>
+    <p>Rätte svaret: En whitelist kan också defeneras som en lista över persoer, organisationer eller enheter som har blivit godkända för att få tillgåmg till en viss tjänst eller webbplats. Det används ofta för att begränsa åtkomst till känslig information eller för att skydda något viktigt</p>
+    <p>Vilken är bäst? Att använda sig av blacklist eller whitelist? Resonera utifrån ett säkerhetsperspektiv! <span id="input14"></span></p>
+    <p>Rätte svaret: Det är nog att använda sig utav blacklist, för att man kan enkelt blockera någon eller några enheter som man inte vill ha. Men alla andra kan ha tillgång till datan eller webbplatsen. Man kan också använda whitelist för att var säkrare, då ger man tillåteslen till vissa personer och blockera alla andra. Med andra ord innehållet blir begränsad.</p>
+    <p>Beskriv vad som händer vid XSS <span id="input15"></span></p>
+    <p>Rätte svaret: XSS är Cross Site Scripting. Det är en svårbegriplig term för en attack på en webbsidans läsare. Målet riktas mot själva användare inte webbservern. Det gör så att den som attackerar försöker att så sin kod att köra i användarens webbläsare. Oftast är koden skriven i javascript då det stöds av ca alla webbläsare. </p>
+    <p>Är det en bra idé att infoga kod direkt ifrån stackoverflow? Redogör. <span id="input16"></span></p>
+    <p>Rätte svaret: Nej, det finns flera anledningar till varför det inte är bra ide. För det första det kan var något som inte riktigt stämmer med det man vill ha, med andra ord koden kan göra något som man inte riktigt önskar. För det andra det kan innehålla alla typer av skadade ämnen som kan skada din dator eller din kod. Sammanfatatningsviss det är inte du som skrev koden, detta gör så att du inte rikitgt förstår innehållet i koden.Sist men inte minst du lär dig inte hur man skriver för nästa gång</p>
+    <p>Vad kan vara bra att tänka på innan du importerar ett kodbibliotek?<span id="input17"></span></p>
+    <p>Rätte svaret: Det kan var bra att tänka och veta mer om vem som skrev koden bakom funktionen man vill importera, koden kan innehålla vad som helst egentligen som kan var skadlig för personen eller koden. Pojängen här är att du ser slutresultatet, inte vad som är bakom funktionen. Det är bäst att läsa innehållet och koden innan man importerar. Länken kan också gå sönder som gör det svårare för att dig att hantera det då det är du som är ansvarig för slutresultatet. Frågan är om det verkligen gör som den ska? Man ska också fundera på det, med andra ord lita inte på något du inte vet grunden på.</p>
+    <p>Hur vet du att ett webbhotell är pålitliga?<span id="input18"></span></p>
+    <p>Rätte svaret: Prata med andra som har köpt/hyrt tjänsten, läs olika recensioner kring webbhotellet, kolla omdömen för webbhotellet. Att hitta ett rätt med lagringsutrymme, trafikhastighet samt tillänglig support som kan besvara och hjälpa dig när du behöver. Fråga mycket, ring eller maila ägaren bakom webbhotellet.</p>
+    <p>Redogör för hur två saker gör webbhotell mer eller mindre pålitligt.<span id="input19"></span></p>
+    <p>Rätte svaret: Att inte ha tillänglig support kan göra det mindre pålitligt, då det kan hända vad som helst med servern som behöver fixas. Det kan okcså var så att man inte har tydligt visa vad webbhotellet består av och olika delar inom det, det beror också på sättet ägaren bakom webhotellet besvarar dina frågor. Kan de besvara dina frågor samt hjälpa dig på ett professionellt sätt, kan de bevisa att informationen de har lagt om webhotellet stämmer då bör det vara ett pålitligt webhotell.</p>
+
+
+    <script type="text/javascript">
+      let url = decodeURI(window.location.href);
+      let urlparts = url.split("?");
+      let dataPairs = urlparts[1].split("&");
+
+      for (var i = 0; i < dataPairs.length; i++) {
+        let keyPair = dataPairs[i].split("=");
+        keyPair[1] = keyPair[1].replace(/[+]/g," ");
+        document.getElementById("input" + keyPair[0]).textContent += " " +  keyPair[1];
+      }
+    </script>
+  </body>
+</html>
